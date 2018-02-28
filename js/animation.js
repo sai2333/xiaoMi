@@ -1,3 +1,4 @@
+"use strict";
 $(function () {
     $('.item-1').on('mouseenter', function () {
         $('.xiaomi-phone').stop().slideDown();
