@@ -197,7 +197,7 @@ a{
         box-shadow:0 3px 4px rgba(0, 0, 0, 0.18);
 }    
 .menu-box{
-    margin: 0 15%;
+    margin: 0 0 0   15%;
     height: 230px;
     ul{
         margin: 0px;
@@ -295,10 +295,10 @@ a{
                 }
             }
             .menu-content{
-                width: 805px;
+                width: 745px;
             }
             .menu-content-big{
-                width: 1065px;
+                width: 1016px;
             }
             .menu-content,.menu-content-big{
                 display: none;
@@ -314,14 +314,14 @@ a{
                 .menu-content-list{
                     list-style: none;
                     float: left;
-                    width: 265px;
+                    width: 248px;
                     height: 458px;
                     margin: 0;
                     padding: 2px 0;
                     li{
                         position: relative;
                         float: left;
-                        width: 265px;
+                        width: 248px;
                         height: 76px;
                         display: list-item;
                         a{
@@ -331,6 +331,9 @@ a{
                             color:#333;
                             text-decoration: none;
                             height: 77px;
+                            &:hover .text{
+                                    color:#ff6700;
+                            }
                             img{
                                 margin-right: 12px;
                                 vertical-align: middle;
@@ -340,9 +343,6 @@ a{
                             .text{
                                 line-height: 40px;
                                 color:#333;
-                                &:hover{
-                                    color:#ff6700;
-                                }
                             }
                         }
                     }
@@ -1703,4 +1703,7 @@ a{
             }
         }
     }
+}
+.xiaomi-footer{
+    margin-bottom: 50px;
 }

@@ -154,7 +154,7 @@ a {
   box-shadow: 0 3px 4px rgba(0, 0, 0, 0.18); }
 
 .menu-box {
-  margin: 0 15%;
+  margin: 0 0 0   15%;
   height: 230px; }
   .menu-box ul {
     margin: 0px;
@@ -237,9 +237,9 @@ a {
         color: rgba(255, 255, 255, 0.5);
         right: 20px; }
     .left-menu .left-menu-box .left-list-menu .menu-content {
-      width: 805px; }
+      width: 745px; }
     .left-menu .left-menu-box .left-list-menu .menu-content-big {
-      width: 1065px; }
+      width: 1016px; }
     .left-menu .left-menu-box .left-list-menu .menu-content, .left-menu .left-menu-box .left-list-menu .menu-content-big {
       display: none;
       position: absolute;
@@ -254,14 +254,14 @@ a {
       .left-menu .left-menu-box .left-list-menu .menu-content .menu-content-list, .left-menu .left-menu-box .left-list-menu .menu-content-big .menu-content-list {
         list-style: none;
         float: left;
-        width: 265px;
+        width: 248px;
         height: 458px;
         margin: 0;
         padding: 2px 0; }
         .left-menu .left-menu-box .left-list-menu .menu-content .menu-content-list li, .left-menu .left-menu-box .left-list-menu .menu-content-big .menu-content-list li {
           position: relative;
           float: left;
-          width: 265px;
+          width: 248px;
           height: 76px;
           display: list-item; }
           .left-menu .left-menu-box .left-list-menu .menu-content .menu-content-list li a, .left-menu .left-menu-box .left-list-menu .menu-content-big .menu-content-list li a {
@@ -271,6 +271,8 @@ a {
             color: #333;
             text-decoration: none;
             height: 77px; }
+            .left-menu .left-menu-box .left-list-menu .menu-content .menu-content-list li a:hover .text, .left-menu .left-menu-box .left-list-menu .menu-content-big .menu-content-list li a:hover .text {
+              color: #ff6700; }
             .left-menu .left-menu-box .left-list-menu .menu-content .menu-content-list li a img, .left-menu .left-menu-box .left-list-menu .menu-content-big .menu-content-list li a img {
               margin-right: 12px;
               vertical-align: middle;
@@ -278,8 +280,6 @@ a {
             .left-menu .left-menu-box .left-list-menu .menu-content .menu-content-list li a .text, .left-menu .left-menu-box .left-list-menu .menu-content-big .menu-content-list li a .text {
               line-height: 40px;
               color: #333; }
-              .left-menu .left-menu-box .left-list-menu .menu-content .menu-content-list li a .text:hover, .left-menu .left-menu-box .left-list-menu .menu-content-big .menu-content-list li a .text:hover {
-                color: #ff6700; }
 
 .content .slide {
   position: absolute;
@@ -1172,5 +1172,8 @@ a {
         background-color: #f25807;
         border-color: #f25807;
         text-decoration: none; }
+
+.xiaomi-footer {
+  margin-bottom: 50px; }
 
 /*# sourceMappingURL=index.css.map */
